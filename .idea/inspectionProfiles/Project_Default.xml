@@ -1,0 +1,46 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="46" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="protobuf" />
+            <item index="1" class="java.lang.String" itemvalue="django-anymail" />
+            <item index="2" class="java.lang.String" itemvalue="django-coverage-plugin" />
+            <item index="3" class="java.lang.String" itemvalue="django-crispy-forms" />
+            <item index="4" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="5" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="6" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="7" class="java.lang.String" itemvalue="cryptography" />
+            <item index="8" class="java.lang.String" itemvalue="pytest-xdist" />
+            <item index="9" class="java.lang.String" itemvalue="ddtrace" />
+            <item index="10" class="java.lang.String" itemvalue="django-mysql" />
+            <item index="11" class="java.lang.String" itemvalue="boto3" />
+            <item index="12" class="java.lang.String" itemvalue="regex" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="payhere.payments.serializers.v1.split_payment.get_accumulate_point_amount_by_payment" />
+          <option value="payhere.outbound.internal.e_receipt.entity.response.e_receipt_response.from_str" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
